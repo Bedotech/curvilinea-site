@@ -69,31 +69,42 @@ Una boutique, perché ogni donna è unica, e da Curvilinea potrà far incontrare
 # Lattementa
 # Cocòl Milano, Chiara Cocòl
 # Sophia Curvy
-# Sophye http://severisilvio.it/
+# Sophye
+# silvio.it/
 
-  # Service section
+  # Brand section
   [params.services]
     headline = "Troverete in negozio..."
 
-        [[params.services.list]]
-            icon = "fa-diamond"
-            title = "Sturdy TemSplates"
-            description = "Our templates are updated regularly so they don't break."
+    [[params.brands.list]]
+      logo = "over_logo.png"
+      alt = "Over di alberto cacciari"
+      link = "https://curvi-linea.it"
 
-        [[params.services.list]]
-      icon = "fa-paper-plane"
-      title = "Ready to Ship"
-      description = "You can use this theme as is, or you can make changes!"
+    [[params.brands.list]]
+      logo = "keyra_logo.png"
+      alt = "Keyra"
+      link = "https://curvi-linea.it"
 
-    [[params.services.list]]
-            icon = "fa-newspaper-o"
-            title = "Up to Date"
-            description = "We update dependencies to keep things fresh."
+    [[params.brands.list]]
+      logo = "lattementa_logo.png"
+      alt = "Lattementa"
+      link = "https://curvi-linea.it"
 
-        [[params.services.list]]
-            icon = "fa-heart"
-            title = "Made with Love"
-            description = "You have to make your websites with love these days!"
+    [[params.brands.list]]
+      logo = "cocol_logo.png"
+      alt = "Cocòl Milano, Chiara Cocòl"
+      link = "https://curvi-linea.it"
+
+    [[params.brands.list]]
+      logo = "sophia_logo.png"
+      alt = "Sophia Curvy"
+      link = "https://curvi-linea.it"
+
+    [[params.brands.list]]
+      logo = "sophye_logo.png"
+      alt = "Sophye"
+      link = "https://curvi-linea.it"
 
 
     # Portfolio modals
