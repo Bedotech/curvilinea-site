@@ -126,5 +126,11 @@ Una boutique, perché ogni donna è unica, e da Curvilinea potrà far incontrare
   [params.contact]
     headline = "Contattaci!"
     description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
-    phone = ""
-    email = "feedback@curvi-linea.it"
+    phone = "035 0347664"
+    email = "info@curvi-linea.it"
+    tax_code = "04116130164"
+    [params.contact.place]
+      address = "Via Papa Giovanni XXIII 28L"
+      cap = 24030
+      country = "Almenno San Bartolomeo"
+      province = "BG"
