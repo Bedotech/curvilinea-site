@@ -33,7 +33,7 @@ theme = "hugo-curvi-linea-theme"
 
     [params.navigation.links]
       about     = "About"
-      services  = "Brand"
+      brands  = "Brand"
       portfolio = "Vetrina"
       contact   = "Contatti"
 
