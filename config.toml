@@ -91,15 +91,15 @@ Una boutique, perché ogni donna è unica, e da Curvilinea potrà far incontrare
       alt = "Lattementa"
       link = "https://curvi-linea.it"
 
-    [[params.brands.list]]
-      logo = "cocol_logo.png"
-      alt = "Cocòl Milano, Chiara Cocòl"
-      link = "https://curvi-linea.it"
+#    [[params.brands.list]]
+#      logo = "cocol_logo.png"
+#      alt = "Cocòl Milano, Chiara Cocòl"
+#      link = "https://curvi-linea.it"
 
-    [[params.brands.list]]
-      logo = "sophia_logo.png"
-      alt = "Sophia Curvy"
-      link = "https://curvi-linea.it"
+#    [[params.brands.list]]
+#      logo = "sophia_logo.png"
+#      alt = "Sophia Curvy"
+#      link = "https://curvi-linea.it"
 
     [[params.brands.list]]
       logo = "sophye_logo.png"
@@ -125,7 +125,7 @@ Una boutique, perché ogni donna è unica, e da Curvilinea potrà far incontrare
   # Contact section
   [params.contact]
     headline = "Contattaci!"
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+    description = "Potete trovarmi ad Almenno San Bartolomeo, BG, Via Papa Giovanni XXIII 28"
     phone = "035 0347664"
     email = "info@curvi-linea.it"
     tax_code = "04116130164"
