@@ -55,12 +55,18 @@ theme = "hugo-curvi-linea-theme"
     #headline    = "We've got what you need!"
     description = """
 Un posticino dove, accolte con un sorriso, potrete trovare capi attentamente
-selezionati per voi, e provare con tranquillità quello che vi piace in
-spaziosi camerini.
+selezionati per voi, e provare con tranquillità
 
-Una boutique, perché ogni donna è unica, e da Curvilinea potrà far incontrare sogni e bisogni nel segno dello stile.
+quello che vi piace in spaziosi camerini.
 
- Un atelier: perché espongo quadri e oggetti, opere mie e dei miei amici artisti."""
+Una boutique, perché ogni donna è unica, e da Curvilinea potrà
+
+far incontrare sogni e bisogni nel segno dello stile.
+
+ Un atelier: perché espongo quadri e oggetti,
+
+ opere mie e dei miei amici artisti.
+"""
 
     buttonText  = "Inizia!"
 
@@ -127,10 +133,18 @@ Una boutique, perché ogni donna è unica, e da Curvilinea potrà far incontrare
     headline = "Contattaci!"
     description = "Potete trovarmi ad Almenno San Bartolomeo, BG, Via Papa Giovanni XXIII 28"
     phone = "035 0347664"
-    email = "info@curvi-linea.it"
+    email = "silvana@curvi-linea.it"
     tax_code = "04116130164"
+    facebook_url = "https://www.facebook.com/curvilinea2015"
     [params.contact.place]
+      name = "Curvilinea di Silavana Agazzi"
       address = "Via Papa Giovanni XXIII 28L"
       cap = 24030
       country = "Almenno San Bartolomeo"
       province = "BG"
+
+
+# Link a facebook
+# Contatti
+# Orari
+#
