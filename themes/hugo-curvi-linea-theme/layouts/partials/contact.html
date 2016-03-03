@@ -1,0 +1,51 @@
+{{ "<!-- CONTACT -->" | safeHTML }}
+<section id="contact">
+  <div class="container-fluid">
+    <div class="row">
+      <div id="map-outer" class="col-md-12 text-center">
+        <h3 class="section-heading">Dove puoi trovarci</h3>
+        <address>
+          <strong>{{ .Site.Params.contact.place.name }}</strong>,<br />
+          {{ .Site.Params.contact.place.address }},
+          {{ .Site.Params.contact.place.country }},
+          {{ .Site.Params.contact.place.cap }}
+          {{ .Site.Params.contact.place.province }}
+        </address>
+        <hr class=""></hr>
+        <div id="map" class="col-lg-8 col-lg-offset-2 col-md-12 col-sm-12"></div>
+      </div>
+    </div>
+    <br />
+    <div class="row">
+      <div class="col-xs-4 col-md-2 col-md-offset-3 short-div text-center">
+        <i class="fa fa-phone fa-3x wow bounceIn"></i>
+        <p>{{ .Site.Params.contact.phone }}</p>
+      </div>
+      <div class="col-xs-4 col-md-2 short-div text-center">
+        <i class="fa fa-facebook-official fa-3x wow bounceIn"></i>
+        <a href="{{ .Site.Params.contact.facebook_url }}">
+          <p>Curvilinea</p>
+        </a>
+      </div>
+      <div class="col-xs-4 col-md-2 short-div text-center">
+        <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+        <p>
+          <a href="mailto:{{ .Site.Params.contact.email }}">
+            {{ .Site.Params.contact.email }}
+          </a>
+        </p>
+      </div>
+
+    </div>
+    <div class="row top-buffer">
+      <div class="col-xs-12 col-sm-4 text-center">
+          <i class="fa fa-clock-o fa-4x wow bounceIn"></i>
+      </div>
+      <div class="col-xs-12 col-sm-8 text-center">
+        <p>Aperto la mattina dalle <time>9:00</time> alle <time>12:00</time>
+        e il pomeriggio dalle <time>15:00</time> alle <time>19:00</time></p>
+        <p>chiuso nei giorni festivi e il Lunedì mattina</p>
+      </div>
+    </div>
+  </div>
+</section>
