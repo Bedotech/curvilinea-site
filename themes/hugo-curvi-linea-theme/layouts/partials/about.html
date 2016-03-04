@@ -2,10 +2,10 @@
 <section class="bg-primary" id="about">
     <div class="container">
         <div class="row">
-            <div class="col-lg-10 col-lg-offset-2 text-center orange">
+            <div class="col-lg-10 col-lg-offset-1 text-center orange">
                 <hr class="light">
                 <p class="text-faded">{{ with .Site.Params.about.description }}{{ . | markdownify }}{{ end }}</p>
-                <a href="#" class="btn btn-default btn-xl">{{ with .Site.Params.about.buttonText }}{{ . }}{{ end }}</a>
+                <a href="{{ .Site.Params.about.buttonUrl }}" class="btn btn-default btn-xl">{{ with .Site.Params.about.buttonText }}{{ . }}{{ end }}</a>
             </div>
         </div>
     </div>
