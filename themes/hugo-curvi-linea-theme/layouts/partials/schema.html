@@ -1,0 +1,18 @@
+{{ "<!-- SCHEMA.ORG -->" | safeHTML }}
+<div itemscope itemtype="http://schema.org/LocalBusiness">
+<span itemprop="name">{{ with .Site.Params.navigation.brand }}{{ . }}{{ end }} di {{ .Site.Params.name }}</span>
+  <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+    <span itemprop="streetAddress">{{ .Site.Params.contact.place.address }}</span>
+    <span itemprop="addressLocality">{{ .Site.Params.contact.place.country }}</span>,
+    <span itemprop="addressRegion">{{ .Site.Params.contact.place.province }}</span> <span itemprop="postalCode">{{ .Site.Params.contact.place.cap }}</span>
+  </div>
+  <span itemprop="telephone">{{ .Site.Params.contact.phone }}</span>
+  <a itemprop="url" href="https://curvi-linea.it">curvi-linea.it</a>
+  Hours:
+  <meta itemprop="openingHours" content="Tu-Sa 9:00-12:00">
+  <meta itemprop="openingHours" content="Mo-Sa 14:00-19:00">
+
+  <meta itemprop="paymentAccepted" content="Cash, credit card, bancomat">
+
+  <span itemprop="priceRange">€€</span>
+</div>
