@@ -1,6 +1,6 @@
 baseurl = "https://curvi-linea.it/"
 languageCode = "it"
-title = "Curvi Linea"
+title = "Curvilinea"
 theme = "hugo-curvi-linea-theme"
 
 # http://clrs.cc/ orange maroon
@@ -69,6 +69,7 @@ far incontrare sogni e bisogni nel segno dello stile.
 """
 
     buttonText  = "Inizia!"
+    buttonUrl = "#brands"
 
 # Over di alberto cacciari
 # Keyra
@@ -142,9 +143,3 @@ far incontrare sogni e bisogni nel segno dello stile.
       cap = 24030
       country = "Almenno San Bartolomeo"
       province = "BG"
-
-
-# Link a facebook
-# Contatti
-# Orari
-#
