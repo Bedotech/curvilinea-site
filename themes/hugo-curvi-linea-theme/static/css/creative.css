@@ -59,7 +59,7 @@ h6 {
 
 p {
     margin-bottom: 20px;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.5;
 }
 
@@ -73,7 +73,7 @@ p {
     color: #fff;
     background-color: #222;
 }
-
+.size-20 p { font-size: 22px; }
 .orange p {
     /*color: #FF851B;*/
     color: white;
@@ -419,8 +419,8 @@ fieldset[disabled] .btn-default.active {
 
 .btn-primary {
     border-color: #ff0066;
-    color: #fff;
-    background-color: #ff0066;
+    color: #717171;
+    background-color: #fff;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
